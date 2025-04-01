@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emerald Valley Multisport</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file for styling -->
+    <script defer src="scripts.js"></script> <!-- Link to your JavaScript file for interactivity -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="images/working_evm_logo.png" alt="Your Club Logo"> <!-- Add your club's logo here -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#teams">Practices</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="coaching.html" class="active">Coaching</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Homepage Section -->
+    <section id="home">
+        <div class="hero-image">
+            <img src="hero.png" alt="Sports Club Image">
+        </div>
+        <div class="hero-text">
+            <h1>Welcome to Emerald Valley Multisport</h1>
+        
+            <p>Join us for exciting sports, community, and fun!</p>
+            <a href="#contact" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a community-driven triathlon club. Our mission is to tie together the loose strands of the triathlon community here in the Willamette Valley to create a supportive and motivated group of endurance athletes.  </p>
+    </section>
+
+    <!-- Teams Section -->
+    <section id="teams">
+        <h2>Our Teams</h2>
+        <div class="team">
+            <h3>Team 1: [Name of the Team]</h3>
+            <p>Description of the team, including the sport played and how to join.</p>
+        </div>
+        <div class="team">
+            <h3>Team 2: [Name of the Team]</h3>
+            <p>Description of the team, including the sport played and how to join.</p>
+        </div>
+        <!-- Add more teams as necessary -->
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>
+                <strong>Event 1:</strong> [Event Name]
+                <p>Date and time: [Date and Time]</p>
+                <p>Details: [Short description of the event]</p>
+            </li>
+            <li>
+                <strong>Event 2:</strong> [Event Name]
+                <p>Date and time: [Date and Time]</p>
+                <p>Details: [Short description of the event]</p>
+            </li>
+            <!-- Add more events as necessary -->
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to join our club, feel free to reach out!</p>
+        <form action="submit_form.php" method="post"> <!-- Change the form action as needed -->
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 [Your Sports Club Name]. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
