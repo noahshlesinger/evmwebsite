@@ -54,13 +54,14 @@ nav ul li a:hover {
     background-attachment: fixed;
 } */ 
 
+
 #home .hero-text{
-    height: 70vh; /* Make sure the container takes up the full viewport height */
+    height: 75vh; /* Make sure the container takes up the full viewport height */
      /* Add your image paths */
     background-size: cover; /* Ensure images cover the space */
-    background-position: left center, center center, right center; /* Position images side by side */
+    background-position: center; /* Position images side by side */
     background-repeat: no-repeat; /* Prevent images from repeating */
-    background-color:#555;
+    background-image: linear-gradient(rgba(29, 58, 174, 0.15),rgba(4, 30, 5, 0.15)),url(images/run_trail.jpg);
     
     justify-content: center;
     align-items: center;
@@ -94,6 +95,41 @@ nav ul li a:hover {
 .cta-button:hover {
     background-color: #2C6B2F; /* Green button hover effect */
 }
+
+
+
+/* ---------sponsors-------- */
+.sponsors{
+    background-color: white;
+    text-align:center;
+    font-size: larger;
+    font-weight: bold;
+    margin:10px 10px;
+}
+.sponsors img:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.9);
+}
+.sponsors img{
+    width: auto;
+    height: 100px;
+    margin-left: 3%;
+    margin-right:2%;
+    margin-top: 1%;
+    margin-bottom:1%;
+    border-radius: 5%;
+}
+
+.sponsors h1{
+    font-size: larger;
+    font-weight: bold;
+    margin:10px 10px;
+}
+
+.sponsors-col:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.4);
+}
+
+
 
 /* About Us Section */
 #about {
