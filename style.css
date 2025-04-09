@@ -16,7 +16,7 @@ body {
 /* Header Section */
 header {
     background-color: whitesmoke; /*background */
-    padding: 20px;
+    padding: 30px;
     /* display: flex;
     justify-content: space-between; */
     align-items: center;
@@ -24,7 +24,7 @@ header {
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type:none;
     text-align:center;
     justify-content: center;
     display:flex;
@@ -321,7 +321,7 @@ footer ul li a:hover {
 #newpartner {
     background-color:darkgray; /* Soft yellow for energy */
     padding: 60px 20px;
-    text-align: center;
+    text-align: left;
     /* max-width: 50%; */
     padding-left: 25%;
     padding-right: 25%;
@@ -341,7 +341,11 @@ footer ul li a:hover {
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);   
+}
+
+#newpartner ul li li p{
+    list-style-type: disc;
 }
 
 #newpartner ul li strong {
